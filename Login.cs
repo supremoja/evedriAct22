@@ -17,6 +17,7 @@ namespace evedriAct2
         {
             InitializeComponent();
         }
+        // HAHHAHAHAHAHHA
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -27,7 +28,7 @@ namespace evedriAct2
             bool log = false;
             for (int i = 2; i <= row; i++)
             {
-                if (sheet.Range[i, 9].Value == txtUsername.Text && sheet.Range[i,10].Value == txtPassword.Text) 
+                if (sheet.Range[i, 9].Value == txtUsername.Text && sheet.Range[i, 10].Value == txtPassword.Text)
                 {
                     log = true;
                     break;
@@ -67,5 +68,6 @@ namespace evedriAct2
             signIn.Show();
             this.Hide();
         }
+    
     }
 }
